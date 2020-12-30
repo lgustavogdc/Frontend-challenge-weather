@@ -1,0 +1,42 @@
+.capitals--container {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.capitals--inner {
+    margin: 0 auto;
+    width: 50vw;
+    height: auto;
+    border-top: 1.2px solid #FFFFFF;
+}
+
+.capitals {
+    margin: 15px auto;
+    width: 40vw;
+    height: auto;
+}
+
+h2 {
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+table {
+    font-weight: 200;
+    color: #272727;
+}
+
+tr {
+    text-align: left;
+}
+
+.capital--name {
+    width: 18vw;
+}
+
+.capital--min, .capital--max {
+    width: 2vw;
+    font-weight: 100;
+}

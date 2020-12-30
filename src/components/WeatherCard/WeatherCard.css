@@ -1,0 +1,63 @@
+.weather-card {
+  height: 250px;
+  width: 30%;
+  padding: 20px 50px;
+  background-color: white;
+}
+
+.days {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  cursor: pointer;
+  line-height: 20px;
+  color: #FF8700;
+  font-size: 14px;
+}
+
+.city-name {
+  line-height: 20px;
+  color: #505050;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.weather-data {
+  padding: 10px 0;
+  color: #505050;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.temperatures {
+  display: table;
+}
+
+.temperatures ion-icon, .temperatures p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.temperatures ion-icon {
+  color: #FF8700;
+  padding: 0;
+}
+
+.temperatures p {
+  padding-right: 20px;
+  color: #505050;
+  font-weight: bolder;
+}
+
+.lighter {
+  color: #505050;
+  font-weight: 100;
+}
